@@ -108,7 +108,7 @@ project(':aegisthus-hadoop') {
         includeInJar 'org.apache.avro:avro-mapred:1.7.4:hadoop2'
 
         // cassandra selected transitive deps
-        includeInJar 'org.apache.thrift:libthrift:0.9.1'
+        includeInJar 'org.apache.thrift:libthrift:0.10.0'
         includeInJar 'org.xerial.snappy:snappy-java:1.0.4.1'
         includeInJar 'net.jpountz.lz4:lz4:1.2.0'
         includeInJar 'org.apache.commons:commons-lang3:3.1'
